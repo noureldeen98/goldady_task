@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+.myNav{
+    height: 90px;
+    margin-bottom: 40px;
+    background-color: #252525;
+   
+}
+
+.containerImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.theTDs{
+    padding-left: 15px;
+}
+
+.myNav a{
+    color: white;
+    font-size: 15px
+}
+
+
+.myNav a:hover{
+    color: #bd902e;
+}
+
+.svgIcons{
+    fill: #bd902e;
+}
+
+.theHR{
+    border-top: 4px dashed #bd902e;
+    background-color: black;
+    width: 95%;
+    margin-left: 15px;
+}
+
+
+
+table{
+    border-radius: 15px;
+    margin: 5px;
+    
+}
+
+.dataOfFromTo{
+    color: white;
+    font-size: 15px;
+}
+
+
+.vl {
+    border-left: 5px solid white;
+    height: 30px;
+
+  }
+
+  .vlInTables{
+    border-left: 4px solid gray;
+    height: 100%;
+    margin-right: 15px;
+    display: inline;
+
+  }
+
+  .submitButton{
+      background-color: black;
+      color: white;
+      border: #bd902e 1px solid;
+      text-align: center;
+      padding: 5px;
+     
+      
+  }
+
+  .submitButton:hover{
+   cursor: pointer;
+  }
+
+.divOfEachTable{
+    border: gainsboro 2px solid;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    width: 90%;
+    border-radius: 10px;
+    padding-right: 3px;
+    padding-left: 3px
+}
+
+/* .firstTable{
+    width: 90%;
+} */
+
+.classTHead{
+
+    color: white; 
+    border-right: 2px solid black;
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+.classTBody{
+    background-color: rgb(39,40,34);
+     color: white;
+     width: 100%;
+     height: 100%;
+     
+}
+
+.thStyles{
+    background-color: #707070;
+    padding:10px;
+    margin-right: 10px;
+}
+
+
+
+.tdStyles{
+    padding:10px 10px 10px 20px;
+    text-align: center;
+    
+
+}
+
+.secondTable{
+    height: 200px;
+    width: 100%;
+}
+
+
+.trOfSecondTable{
+    background-color: #292929;
+    height:30px;
+    padding-left: 10px;
+    
+}
+
+.tdOfSecondTable{
+    float: right;
+    padding-right: 20px;
+}
